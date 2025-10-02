@@ -1,0 +1,16 @@
+[package]
+name = "dice_game"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dice_game = "0x6efe0654546367eb84ca823a08b1e33be57f892f9b66d7853b7100ed5c158185"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
